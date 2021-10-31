@@ -1,9 +1,97 @@
-import React from 'react'
-import "./Rightbar.css"
+import React from "react";
+import "./Rightbar.css";
 export default function Rightbar() {
-    return (
-        <div className="rightbar"> 
-            Rightbar
+  return (
+    <div className="rightbar">
+      <div className="rightbarWrapper">
+        <div className="birthdayContainer">
+          <img className="birthdayImg" src="/gift.png" alt="" />
+          <span className="birthdayText">
+            <b>Anurag</b>and <b>3 other friends</b> have a birthday today.
+          </span>
         </div>
-    )
+        <img className="rightbarAd" src="/3.jpg" alt="" />
+        <h4 className="rightbarTitle">Online Friends</h4>
+        <ul className="rightbarFriendList">
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+          <li className="rightbarFriend">
+            <div className="rightbarProfileImgContainer">
+              <img
+                className="rightbarProfileImg"
+                src="/assets/persons/2.jpg"
+                alt=""
+              />
+              <span className="rightbarOnline"></span>
+            </div>
+            <span className="rightbarUsername">abhishek silawat</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
